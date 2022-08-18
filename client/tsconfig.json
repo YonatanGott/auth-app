@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      "_types/*": ["@types/*"],
+      "_api/*": ["api/*"],
+      "_assets/*": ["assets/*"],
+      "_components/*": ["components/*"],
+      "_pages/*": ["pages/*"],
+      "_enums/*": ["enums/*"],
+      "_hooks/*": ["hooks/*"],
+      "_styles/*": ["styles/*"],
+      "_public/*": ["public/*"],
+      "_routes/*": ["routes/*"],
+      "_store/*": ["store/*"],
+      "_theme/*": ["theme/*"],
+      "_utils/*": ["utils/*"],
+      "_views/*": ["views/*"],
+      "_context/*": ["context/*"]
+    }
+  },
+  "include": [
+    "src",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
